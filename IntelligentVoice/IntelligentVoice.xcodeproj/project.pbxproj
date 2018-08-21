@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17F882A3619E749FC5208012 /* libPods-IntelligentVoice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D188AAACF07B9E696A9A03 /* libPods-IntelligentVoice.a */; };
+		72CAB7912126B0B300B9FC92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CAB7902126B0B300B9FC92 /* AppDelegate.swift */; };
+		72CAB7932126B0B300B9FC92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CAB7922126B0B300B9FC92 /* ViewController.swift */; };
+		72CAB7962126B0B300B9FC92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72CAB7942126B0B300B9FC92 /* Main.storyboard */; };
+		72CAB7982126B0B400B9FC92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72CAB7972126B0B400B9FC92 /* Assets.xcassets */; };
+		72CAB79B2126B0B400B9FC92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72CAB7992126B0B400B9FC92 /* LaunchScreen.storyboard */; };
+		72CAB7A62126B0B400B9FC92 /* IntelligentVoiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CAB7A52126B0B400B9FC92 /* IntelligentVoiceTests.swift */; };
+		72CAB7B12126B0B400B9FC92 /* IntelligentVoiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CAB7B02126B0B400B9FC92 /* IntelligentVoiceUITests.swift */; };
+		72CAB7C02126B0F400B9FC92 /* NlsSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CAB7BF2126B0F300B9FC92 /* NlsSdk.framework */; };
+		72CAB7C22126B16000B9FC92 /* NlsSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 72CAB7BF2126B0F300B9FC92 /* NlsSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		72CAB7D12126B19A00B9FC92 /* NLSPlayAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CAB7C52126B19A00B9FC92 /* NLSPlayAudio.m */; };
+		72CAB7D22126B19A00B9FC92 /* YSCVolumeQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CAB7C82126B19A00B9FC92 /* YSCVolumeQueue.m */; };
+		72CAB7D32126B19A00B9FC92 /* YSCVoiceWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CAB7CA2126B19A00B9FC92 /* YSCVoiceWaveView.m */; };
+		72CAB7D42126B19A00B9FC92 /* TranslatNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CAB7CE2126B19A00B9FC92 /* TranslatNumber.m */; };
+		72CAB7D52126B19A00B9FC92 /* NlsVoiceRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CAB7CF2126B19A00B9FC92 /* NlsVoiceRecorder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72CAB7A22126B0B400B9FC92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72CAB7852126B0B300B9FC92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72CAB78C2126B0B300B9FC92;
+			remoteInfo = IntelligentVoice;
+		};
+		72CAB7AD2126B0B400B9FC92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72CAB7852126B0B300B9FC92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72CAB78C2126B0B300B9FC92;
+			remoteInfo = IntelligentVoice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		72CAB7C32126B16000B9FC92 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				72CAB7C22126B16000B9FC92 /* NlsSdk.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		67D188AAACF07B9E696A9A03 /* libPods-IntelligentVoice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IntelligentVoice.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72CAB78D2126B0B300B9FC92 /* IntelligentVoice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntelligentVoice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72CAB7902126B0B300B9FC92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72CAB7922126B0B300B9FC92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		72CAB7952126B0B300B9FC92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72CAB7972126B0B400B9FC92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72CAB79A2126B0B400B9FC92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72CAB79C2126B0B400B9FC92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72CAB7A12126B0B400B9FC92 /* IntelligentVoiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntelligentVoiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72CAB7A52126B0B400B9FC92 /* IntelligentVoiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelligentVoiceTests.swift; sourceTree = "<group>"; };
+		72CAB7A72126B0B400B9FC92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72CAB7AC2126B0B400B9FC92 /* IntelligentVoiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntelligentVoiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72CAB7B02126B0B400B9FC92 /* IntelligentVoiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelligentVoiceUITests.swift; sourceTree = "<group>"; };
+		72CAB7B22126B0B400B9FC92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72CAB7BF2126B0F300B9FC92 /* NlsSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NlsSdk.framework; sourceTree = "<group>"; };
+		72CAB7C52126B19A00B9FC92 /* NLSPlayAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLSPlayAudio.m; sourceTree = "<group>"; };
+		72CAB7C62126B19A00B9FC92 /* NlsVoiceRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NlsVoiceRecorder.h; sourceTree = "<group>"; };
+		72CAB7C82126B19A00B9FC92 /* YSCVolumeQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSCVolumeQueue.m; sourceTree = "<group>"; };
+		72CAB7C92126B19A00B9FC92 /* YSCVoiceWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSCVoiceWaveView.h; sourceTree = "<group>"; };
+		72CAB7CA2126B19A00B9FC92 /* YSCVoiceWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSCVoiceWaveView.m; sourceTree = "<group>"; };
+		72CAB7CB2126B19A00B9FC92 /* YSCVolumeQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSCVolumeQueue.h; sourceTree = "<group>"; };
+		72CAB7CD2126B19A00B9FC92 /* TranslatNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranslatNumber.h; sourceTree = "<group>"; };
+		72CAB7CE2126B19A00B9FC92 /* TranslatNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranslatNumber.m; sourceTree = "<group>"; };
+		72CAB7CF2126B19A00B9FC92 /* NlsVoiceRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NlsVoiceRecorder.m; sourceTree = "<group>"; };
+		72CAB7D02126B19A00B9FC92 /* NLSPlayAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLSPlayAudio.h; sourceTree = "<group>"; };
+		72CAB7D72126B36A00B9FC92 /* IntelligentVoice-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IntelligentVoice-Bridging-Header.h"; sourceTree = "<group>"; };
+		96685339EA6F4684A19A84B8 /* Pods-IntelligentVoice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntelligentVoice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IntelligentVoice/Pods-IntelligentVoice.debug.xcconfig"; sourceTree = "<group>"; };
+		9A6DFECD4860E7CD09841DB4 /* Pods-IntelligentVoice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntelligentVoice.release.xcconfig"; path = "Pods/Target Support Files/Pods-IntelligentVoice/Pods-IntelligentVoice.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72CAB78A2126B0B300B9FC92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72CAB7C02126B0F400B9FC92 /* NlsSdk.framework in Frameworks */,
+				17F882A3619E749FC5208012 /* libPods-IntelligentVoice.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72CAB79E2126B0B400B9FC92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72CAB7A92126B0B400B9FC92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DB552F99984FF18A59DDBE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67D188AAACF07B9E696A9A03 /* libPods-IntelligentVoice.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72CAB7842126B0B300B9FC92 = {
+			isa = PBXGroup;
+			children = (
+				72CAB78F2126B0B300B9FC92 /* IntelligentVoice */,
+				72CAB7A42126B0B400B9FC92 /* IntelligentVoiceTests */,
+				72CAB7AF2126B0B400B9FC92 /* IntelligentVoiceUITests */,
+				72CAB78E2126B0B300B9FC92 /* Products */,
+				D0D58F8BE47291D28B8E70F8 /* Pods */,
+				1DB552F99984FF18A59DDBE3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		72CAB78E2126B0B300B9FC92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72CAB78D2126B0B300B9FC92 /* IntelligentVoice.app */,
+				72CAB7A12126B0B400B9FC92 /* IntelligentVoiceTests.xctest */,
+				72CAB7AC2126B0B400B9FC92 /* IntelligentVoiceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72CAB78F2126B0B300B9FC92 /* IntelligentVoice */ = {
+			isa = PBXGroup;
+			children = (
+				72CAB7D82126B51E00B9FC92 /* Main */,
+				72CAB7C42126B19A00B9FC92 /* ALiyun */,
+				72CAB7BE2126B0F300B9FC92 /* framework */,
+				72CAB7922126B0B300B9FC92 /* ViewController.swift */,
+				72CAB7D62126B23600B9FC92 /* Supporting Files */,
+				72CAB7942126B0B300B9FC92 /* Main.storyboard */,
+				72CAB7972126B0B400B9FC92 /* Assets.xcassets */,
+				72CAB7992126B0B400B9FC92 /* LaunchScreen.storyboard */,
+				72CAB79C2126B0B400B9FC92 /* Info.plist */,
+			);
+			path = IntelligentVoice;
+			sourceTree = "<group>";
+		};
+		72CAB7A42126B0B400B9FC92 /* IntelligentVoiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				72CAB7A52126B0B400B9FC92 /* IntelligentVoiceTests.swift */,
+				72CAB7A72126B0B400B9FC92 /* Info.plist */,
+			);
+			path = IntelligentVoiceTests;
+			sourceTree = "<group>";
+		};
+		72CAB7AF2126B0B400B9FC92 /* IntelligentVoiceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				72CAB7B02126B0B400B9FC92 /* IntelligentVoiceUITests.swift */,
+				72CAB7B22126B0B400B9FC92 /* Info.plist */,
+			);
+			path = IntelligentVoiceUITests;
+			sourceTree = "<group>";
+		};
+		72CAB7BE2126B0F300B9FC92 /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				72CAB7BF2126B0F300B9FC92 /* NlsSdk.framework */,
+			);
+			path = framework;
+			sourceTree = "<group>";
+		};
+		72CAB7C42126B19A00B9FC92 /* ALiyun */ = {
+			isa = PBXGroup;
+			children = (
+				72CAB7C52126B19A00B9FC92 /* NLSPlayAudio.m */,
+				72CAB7C62126B19A00B9FC92 /* NlsVoiceRecorder.h */,
+				72CAB7C72126B19A00B9FC92 /* VoiceView */,
+				72CAB7CC2126B19A00B9FC92 /* transfer */,
+				72CAB7CF2126B19A00B9FC92 /* NlsVoiceRecorder.m */,
+				72CAB7D02126B19A00B9FC92 /* NLSPlayAudio.h */,
+			);
+			path = ALiyun;
+			sourceTree = "<group>";
+		};
+		72CAB7C72126B19A00B9FC92 /* VoiceView */ = {
+			isa = PBXGroup;
+			children = (
+				72CAB7C82126B19A00B9FC92 /* YSCVolumeQueue.m */,
+				72CAB7C92126B19A00B9FC92 /* YSCVoiceWaveView.h */,
+				72CAB7CA2126B19A00B9FC92 /* YSCVoiceWaveView.m */,
+				72CAB7CB2126B19A00B9FC92 /* YSCVolumeQueue.h */,
+			);
+			path = VoiceView;
+			sourceTree = "<group>";
+		};
+		72CAB7CC2126B19A00B9FC92 /* transfer */ = {
+			isa = PBXGroup;
+			children = (
+				72CAB7CD2126B19A00B9FC92 /* TranslatNumber.h */,
+				72CAB7CE2126B19A00B9FC92 /* TranslatNumber.m */,
+			);
+			path = transfer;
+			sourceTree = "<group>";
+		};
+		72CAB7D62126B23600B9FC92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72CAB7D72126B36A00B9FC92 /* IntelligentVoice-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72CAB7D82126B51E00B9FC92 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				72CAB7902126B0B300B9FC92 /* AppDelegate.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D0D58F8BE47291D28B8E70F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96685339EA6F4684A19A84B8 /* Pods-IntelligentVoice.debug.xcconfig */,
+				9A6DFECD4860E7CD09841DB4 /* Pods-IntelligentVoice.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72CAB78C2126B0B300B9FC92 /* IntelligentVoice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72CAB7B52126B0B400B9FC92 /* Build configuration list for PBXNativeTarget "IntelligentVoice" */;
+			buildPhases = (
+				0581A82B487221DAA27AAC4B /* [CP] Check Pods Manifest.lock */,
+				72CAB7892126B0B300B9FC92 /* Sources */,
+				72CAB78A2126B0B300B9FC92 /* Frameworks */,
+				72CAB78B2126B0B300B9FC92 /* Resources */,
+				72CAB7C32126B16000B9FC92 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IntelligentVoice;
+			productName = IntelligentVoice;
+			productReference = 72CAB78D2126B0B300B9FC92 /* IntelligentVoice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72CAB7A02126B0B400B9FC92 /* IntelligentVoiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72CAB7B82126B0B400B9FC92 /* Build configuration list for PBXNativeTarget "IntelligentVoiceTests" */;
+			buildPhases = (
+				72CAB79D2126B0B400B9FC92 /* Sources */,
+				72CAB79E2126B0B400B9FC92 /* Frameworks */,
+				72CAB79F2126B0B400B9FC92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72CAB7A32126B0B400B9FC92 /* PBXTargetDependency */,
+			);
+			name = IntelligentVoiceTests;
+			productName = IntelligentVoiceTests;
+			productReference = 72CAB7A12126B0B400B9FC92 /* IntelligentVoiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		72CAB7AB2126B0B400B9FC92 /* IntelligentVoiceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72CAB7BB2126B0B400B9FC92 /* Build configuration list for PBXNativeTarget "IntelligentVoiceUITests" */;
+			buildPhases = (
+				72CAB7A82126B0B400B9FC92 /* Sources */,
+				72CAB7A92126B0B400B9FC92 /* Frameworks */,
+				72CAB7AA2126B0B400B9FC92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72CAB7AE2126B0B400B9FC92 /* PBXTargetDependency */,
+			);
+			name = IntelligentVoiceUITests;
+			productName = IntelligentVoiceUITests;
+			productReference = 72CAB7AC2126B0B400B9FC92 /* IntelligentVoiceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72CAB7852126B0B300B9FC92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = DongMingMing;
+				TargetAttributes = {
+					72CAB78C2126B0B300B9FC92 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					72CAB7A02126B0B400B9FC92 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 72CAB78C2126B0B300B9FC92;
+					};
+					72CAB7AB2126B0B400B9FC92 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 72CAB78C2126B0B300B9FC92;
+					};
+				};
+			};
+			buildConfigurationList = 72CAB7882126B0B300B9FC92 /* Build configuration list for PBXProject "IntelligentVoice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72CAB7842126B0B300B9FC92;
+			productRefGroup = 72CAB78E2126B0B300B9FC92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72CAB78C2126B0B300B9FC92 /* IntelligentVoice */,
+				72CAB7A02126B0B400B9FC92 /* IntelligentVoiceTests */,
+				72CAB7AB2126B0B400B9FC92 /* IntelligentVoiceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72CAB78B2126B0B300B9FC92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72CAB79B2126B0B400B9FC92 /* LaunchScreen.storyboard in Resources */,
+				72CAB7982126B0B400B9FC92 /* Assets.xcassets in Resources */,
+				72CAB7962126B0B300B9FC92 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72CAB79F2126B0B400B9FC92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72CAB7AA2126B0B400B9FC92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0581A82B487221DAA27AAC4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IntelligentVoice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72CAB7892126B0B300B9FC92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72CAB7D52126B19A00B9FC92 /* NlsVoiceRecorder.m in Sources */,
+				72CAB7D32126B19A00B9FC92 /* YSCVoiceWaveView.m in Sources */,
+				72CAB7932126B0B300B9FC92 /* ViewController.swift in Sources */,
+				72CAB7912126B0B300B9FC92 /* AppDelegate.swift in Sources */,
+				72CAB7D12126B19A00B9FC92 /* NLSPlayAudio.m in Sources */,
+				72CAB7D22126B19A00B9FC92 /* YSCVolumeQueue.m in Sources */,
+				72CAB7D42126B19A00B9FC92 /* TranslatNumber.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72CAB79D2126B0B400B9FC92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72CAB7A62126B0B400B9FC92 /* IntelligentVoiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72CAB7A82126B0B400B9FC92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72CAB7B12126B0B400B9FC92 /* IntelligentVoiceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72CAB7A32126B0B400B9FC92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72CAB78C2126B0B300B9FC92 /* IntelligentVoice */;
+			targetProxy = 72CAB7A22126B0B400B9FC92 /* PBXContainerItemProxy */;
+		};
+		72CAB7AE2126B0B400B9FC92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72CAB78C2126B0B300B9FC92 /* IntelligentVoice */;
+			targetProxy = 72CAB7AD2126B0B400B9FC92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72CAB7942126B0B300B9FC92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72CAB7952126B0B300B9FC92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72CAB7992126B0B400B9FC92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72CAB79A2126B0B400B9FC92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72CAB7B32126B0B400B9FC92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72CAB7B42126B0B400B9FC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72CAB7B62126B0B400B9FC92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96685339EA6F4684A19A84B8 /* Pods-IntelligentVoice.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VU5UX5CZ83;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IntelligentVoice/framework",
+				);
+				INFOPLIST_FILE = IntelligentVoice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.limaicloud.IntelligentVoice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/IntelligentVoice/Supporting Files/IntelligentVoice-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72CAB7B72126B0B400B9FC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A6DFECD4860E7CD09841DB4 /* Pods-IntelligentVoice.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VU5UX5CZ83;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IntelligentVoice/framework",
+				);
+				INFOPLIST_FILE = IntelligentVoice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.limaicloud.IntelligentVoice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/IntelligentVoice/Supporting Files/IntelligentVoice-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		72CAB7B92126B0B400B9FC92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VU5UX5CZ83;
+				INFOPLIST_FILE = IntelligentVoiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.limaicloud.IntelligentVoiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntelligentVoice.app/IntelligentVoice";
+			};
+			name = Debug;
+		};
+		72CAB7BA2126B0B400B9FC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VU5UX5CZ83;
+				INFOPLIST_FILE = IntelligentVoiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.limaicloud.IntelligentVoiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntelligentVoice.app/IntelligentVoice";
+			};
+			name = Release;
+		};
+		72CAB7BC2126B0B400B9FC92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VU5UX5CZ83;
+				INFOPLIST_FILE = IntelligentVoiceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.limaicloud.IntelligentVoiceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IntelligentVoice;
+			};
+			name = Debug;
+		};
+		72CAB7BD2126B0B400B9FC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VU5UX5CZ83;
+				INFOPLIST_FILE = IntelligentVoiceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.limaicloud.IntelligentVoiceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IntelligentVoice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72CAB7882126B0B300B9FC92 /* Build configuration list for PBXProject "IntelligentVoice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72CAB7B32126B0B400B9FC92 /* Debug */,
+				72CAB7B42126B0B400B9FC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72CAB7B52126B0B400B9FC92 /* Build configuration list for PBXNativeTarget "IntelligentVoice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72CAB7B62126B0B400B9FC92 /* Debug */,
+				72CAB7B72126B0B400B9FC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72CAB7B82126B0B400B9FC92 /* Build configuration list for PBXNativeTarget "IntelligentVoiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72CAB7B92126B0B400B9FC92 /* Debug */,
+				72CAB7BA2126B0B400B9FC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72CAB7BB2126B0B400B9FC92 /* Build configuration list for PBXNativeTarget "IntelligentVoiceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72CAB7BC2126B0B400B9FC92 /* Debug */,
+				72CAB7BD2126B0B400B9FC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72CAB7852126B0B300B9FC92 /* Project object */;
+}

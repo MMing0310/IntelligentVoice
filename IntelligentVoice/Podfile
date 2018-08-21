@@ -1,0 +1,3 @@
+target "IntelligentVoice" do
+     pod 'AFNetworking'
+end
